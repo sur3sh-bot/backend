@@ -1,5 +1,3 @@
-// server.js
-
 const express = require('express');   // import Express
 const app = express();                // create an app
 
