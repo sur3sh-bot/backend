@@ -7,7 +7,7 @@ app = Flask(__name__)
 # A simple "hello world" route
 @app.route('/')
 def home():
-    return 'Notes API is running!'
+    return 'suresh was here'
 
 # Start the server on port 3000
 if __name__ == '__main__':
