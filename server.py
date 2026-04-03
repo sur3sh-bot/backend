@@ -1,10 +1,7 @@
-# app.py
-
-from flask import Flask
+from flask import Flask #pip install flask
 
 app = Flask(__name__)
 
-# A simple "hello world" route
 @app.route('/')
 def home():
     return 'suresh was here'
