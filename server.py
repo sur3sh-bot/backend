@@ -1,5 +1,5 @@
 from flask import Flask #pip install flask
-
+#this library is used to create a web server in python
 app = Flask(__name__)
 
 @app.route('/')
