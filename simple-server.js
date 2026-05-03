@@ -5,7 +5,7 @@ app.use(express.json());              // tell Express to understand JSON
 
 // A simple "hello world" route
 app.get('/', (req, res) => {
-  res.send('Notes API is running!');
+  res.send('suresh was here!');
 });
 
 // Start the server on port 3000
